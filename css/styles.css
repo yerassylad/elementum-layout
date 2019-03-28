@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: lightgray;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.svg-icon {
+  width: 3em;
+  height: 3em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #fff;
+  stroke-width: 10
+}
+
+.search-logo {
+  display: inline-flex;
+  align-content: center;
+  align-items:  center;
+  flex-direction: column;
+}
+
+.search-logo .icon, .search-logo .text {
+  display: inline-block;
+}
+
+.search-logo .text span {
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+.header-item {
+  padding: 0;
+  margin: 0;
+  background: lightcoral;
+}
+
+.drawning {
+  display: flex;
+  align-items: flex-end;
+  background: #000;
+}
