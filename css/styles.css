@@ -11,6 +11,7 @@ html {
 body {
   font-family: Montserrat;
   color: #fff;
+  font-size: 14px;
   background-color: lightblue;
 }
 
@@ -116,12 +117,13 @@ a.logo span {
   text-decoration: none;
   color: inherit;
   padding: 10px 40px;
-  border: 2px solid  rgba(255, 255, 255, 0.5);
-  background-color: rgba(255, 255, 255, 0.1)
+  border: 1px solid  rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  text-transform: uppercase;
 }
 
 .button:hover {
-  border: 2px solid  rgba(255, 255, 255, 1);
+  border: 1px solid  rgba(255, 255, 255, 1);
 }
 
 .button:active {
@@ -130,13 +132,13 @@ a.logo span {
 
 h1 {
   font-weight: 200;
-  font-size: 50px;
+  font-size: 4em;
 }
 
 .block2 {
   box-sizing: border-box;
   width: 100%;
-  height: 250px;
+  height: 350px;
   background-color: rgba(255, 255, 255, 1);
 }
 
@@ -156,17 +158,50 @@ h1 {
 .card .title {
   color: #000;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.2em;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
 .card .text {
   color: black;
-  font-size: 10px;
+  font-size: 1em;
   margin-bottom: 20px;
 }
 
 .card .title span {
   color: #e64c43;
+}
+
+.link-to {
+  text-decoration: none;
+  color: #e64c43;
+  border-bottom: 1px solid #e64c43;
+}
+
+.link-to:visited {
+  color: #f3665c;
+  border-bottom: 1px solid #f3665c;
+}
+
+.block3 {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 400px;
+  background-color: rgba(230, 76, 67, 0.65);
+}
+
+.block3:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: url("../images/ben-o-bro-170472-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+  background-size: cover;
 }
